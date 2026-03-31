@@ -67,7 +67,7 @@ Ejemplo:
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=SCICustomers;Trusted_Connection=True;TrustServerCertificate=True;"
+    "DBConnection": "Server=localhost;Database=SCICustomers;Trusted_Connection=True;TrustServerCertificate=True;"
   }
 }
 ```
@@ -79,9 +79,9 @@ El método de autenticación sea válido
 
 
  ## Flujo rápido para probar el proyecto
-Ejecutar el script database/init.sql
-Configurar la cadena de conexión en appsettings.json
-Ejecutar el backend .NET
-Configurar la URL del API en environment.ts
-Ejecutar el frontend Angular
-Probar las operaciones CRUD desde la interfaz de usuario
+- Ejecutar el script database/init.sql
+- Configurar la cadena de conexión en appsettings.json
+- Ejecutar el backend .NET
+- Configurar la URL del API en environment.ts
+- Ejecutar el frontend Angular
+- Probar las operaciones CRUD desde la interfaz de usuario
